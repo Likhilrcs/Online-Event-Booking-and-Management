@@ -1,5 +1,5 @@
 (async () => {
-  const base = 'http://localhost:5000';
+  const base = 'https://online-event-booking-and-management-fycw.onrender.com';
   const headers = { 'Content-Type': 'application/json' };
 
   const wait = (ms) => new Promise(r => setTimeout(r, ms));
