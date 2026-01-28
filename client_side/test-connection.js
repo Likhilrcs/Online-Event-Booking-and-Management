@@ -1,7 +1,7 @@
 // Simple test to verify frontend can connect to backend
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://online-event-booking-and-management-fycw.onrender.com';
 
 async function testConnection() {
     console.log('🔍 Testing Frontend → Backend Connection...\n');
