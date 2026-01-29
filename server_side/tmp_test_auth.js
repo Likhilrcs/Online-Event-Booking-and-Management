@@ -2,7 +2,7 @@ const axios = require('axios');
 
 (async () => {
   try {
-    const register = await axios.post('https://online-event-booking-and-management-fycw.onrender.com/api/auth/register', {
+    const register = await axios.post('http://localhost:5000/api/auth/register', {
       name: 'Test User',
       email: 'testuser@example.com',
       password: 'Password123'
@@ -14,7 +14,7 @@ const axios = require('axios');
   }
 
   try {
-    const login = await axios.post('https://online-event-booking-and-management-fycw.onrender.com/api/auth/login', {
+    const login = await axios.post('http://localhost:5000/api/auth/login', {
       email: 'testuser@example.com',
       password: 'Password123'
     });

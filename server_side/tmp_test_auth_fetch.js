@@ -1,5 +1,5 @@
 (async () => {
-  const base = 'https://online-event-booking-and-management-fycw.onrender.com/api/auth';
+  const base = 'http://localhost:5000/api/auth';
   try {
     const regRes = await fetch(base + '/register', {
       method: 'POST',

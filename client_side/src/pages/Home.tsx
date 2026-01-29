@@ -76,9 +76,9 @@ export default function Home() {
                 Discover Amazing Events
               </Badge>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6">
-                Find Your Next{' '}
-                <span className="gradient-text">Unforgettable</span>{' '}
-                Experience
+                Live the Experience,{' '}
+                <span className="gradient-text">Not Just</span>{' '}
+                the Moment
               </h1>
               <p className="text-lg text-primary-foreground/70 mb-8 max-w-2xl mx-auto">
                 From concerts to conferences, discover and book amazing events happening around you. 
